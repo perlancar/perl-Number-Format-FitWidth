@@ -57,9 +57,17 @@ sub format_fitwidth {
  # TODO: decimal_digits option
 
 
+=head1 DESCRIPTION
+
+
 =head1 FUNCTIONS
 
 =head2 format_fitwidth
+
+This is basically a glorified C<sprintf()> which will determine the width for
+you. There are some conveniences (some not yet implemented) e.g. handling
+decimal numbers, negative numbers, specifying maximum and minimum instead of
+getting from the arguments, etc.
 
 Usage:
 
